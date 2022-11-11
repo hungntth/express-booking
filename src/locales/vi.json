@@ -1,0 +1,18 @@
+{
+	"Hello": "Danh sách mockapi",
+	"Goodbye": "Tam biet",
+	"login.success": "Đăng nhập thành công",
+	"login.fail": "Đăng nhập thất bại. Sai email hoặc mật khẩu.",
+	"change_password.email_or_pass_invalid": "Thay đổi mật khẩu thất bại, email hoặc mật khẩu hiện tại không chính xác",
+	"change_password.failed": "Thay đổi mật khẩu thất bại",
+	"change_password.success": "Thay đổi mật khẩu thành công",
+	"login.email.empty": "Email không được để trống",
+	"login.password.empty": "Password không được để trống",
+	"login.email.error": "Email không đúng định dạng",
+	"system.success": "Thành công",
+	"system.error": "Có lỗi xảy ra, vui lòng liên hệ ban quản trị",
+	"system.file.max_record": "Không được import vượt quá 2000 bản ghi",
+	"system.file.empty": "File không có bản ghi",
+	"system.file.import.success": "Import thành công",
+	"system.file.error": "File có lỗi vui lòng kiểm tra lại"
+}
