@@ -1,34 +1,46 @@
 module.exports = (sequelize, Sequelize) => {
-    const Account = sequelize.define("users");
-    Account.init({
+    const Hotel = sequelize.define("hotel");
+    Hotel.init({
         id: {
             type: Sequelize.INTEGER,
             autoIncrement: true,
             primaryKey: true
         },
-        username: {
+        name: {
             type: Sequelize.STRING
         },
-        email: {
+        type: {
             type: Sequelize.STRING
         },
-        country: {
-            type: Sequelize.STRING
-        },
-        img: {
-            type: Sequelize.STRING
-        }, 
         city: {
             type: Sequelize.STRING
         },
-        phone: {
+        address: {
             type: Sequelize.STRING
         },
-        password: {
+        distance: {
             type: Sequelize.STRING
         },
-        isAdmin: {
+        photos: {
+            type: Sequelize.STRING
+        },
+        title : {
+            type: Sequelize.STRING
+        },
+        rating : {
+            type: Sequelize.STRING
+        },
+        rooms : {
+            type: Sequelize.STRING
+        },
+        cheapestPrice : {
+            type: Sequelize.INTEGER
+        },
+        featured : {
             type: Sequelize.BOOLEAN
+        },
+        desc : {
+            type: Sequelize.STRING
         },
         isActive: {
             type: Sequelize.BOOLEAN
@@ -47,5 +59,5 @@ module.exports = (sequelize, Sequelize) => {
         }
     }, { sequelize, freezeTableName: true});
     
-    return Account;
+    return Hotel;
 };
